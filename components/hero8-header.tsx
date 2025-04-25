@@ -2,21 +2,21 @@
 import Link from 'next/link'
 import { Logo } from './logo'
 import { Menu, X } from 'lucide-react'
-import { Button } from '@/components/ui/button'
+// import { Button } from '@/components/ui/button'
 import React from 'react'
 import { ThemeToggle } from './theme-toggle'
 
 const menuItems = [
-    { name: 'Home', href: '#link' },
-    { name: 'Services', href: '#link' },
-    { name: 'Contact', href: '#link' },
-    { name: 'About', href: '#link' },
+    { name: 'Accueil', href: '/home' },
+    { name: 'Nos spécialités', href: '/specialities' },
+    { name: 'À propos', href: '/about' },
+    { name: 'Contact', href: '/contact' },
 ]
 
-export const HeroHeader = () => {
-    const [menuState, setMenuState] = React.useState(false)
+export default function HeroHeader() {
+    const [menuState, setMenuState] = React.useState(false);
     return (
-        <header>
+        <header className='shadow-lg'>
             <nav
                 data-state={menuState && 'active'}
                 className="bg-background/50 fixed z-20 w-full border-b backdrop-blur-3xl">
@@ -53,7 +53,7 @@ export const HeroHeader = () => {
                             </div>
                         </div>
 
-                        <div className="bg-background in-data-[state=active]:block lg:in-data-[state=active]:flex mb-6 hidden w-full flex-wrap items-center justify-end space-y-8 rounded-3xl border p-6 shadow-2xl shadow-zinc-300/20 md:flex-nowrap lg:m-0 lg:flex lg:w-fit lg:gap-6 lg:space-y-0 lg:border-transparent lg:bg-transparent lg:p-0 lg:shadow-none dark:shadow-none dark:lg:bg-transparent">
+                        <div className="bg-background in-data-[state=active]:block lg:in-data-[state=active]:flex mb-6 hidden w-full flex-wrap items-center justify-end space-y-8 rounded-3xl p-6 shadow-2xl shadow-zinc-300/20 md:flex-nowrap lg:m-0 lg:flex lg:w-fit lg:gap-6 lg:space-y-0 lg:border-transparent lg:bg-transparent lg:p-0 lg:shadow-none dark:shadow-none dark:lg:bg-transparent">
                             <div className="lg:hidden">
                                 <ul className="space-y-6 text-base">
                                     {menuItems.map((item, index) => (
@@ -69,7 +69,7 @@ export const HeroHeader = () => {
                             </div>
                             <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
                                 <ThemeToggle />
-                                <Button
+                                {/* <Button
                                     asChild
                                     variant="outline"
                                     size="sm">
@@ -83,12 +83,12 @@ export const HeroHeader = () => {
                                     <Link href="#">
                                         <span>Sign Up</span>
                                     </Link>
-                                </Button>
+                                </Button> */}
                             </div>
                         </div>
                     </div>
                 </div>
             </nav>
         </header>
-    )
+    );
 }
