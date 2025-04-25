@@ -19,7 +19,7 @@ export default function HeroSection() {
                 nos services innovants pour votre santé et votre bien-être.
               </p>
 
-              <div className="flex flex-col items-center justify-center gap-8 mt-12 sm:flex-row lg:justify-start">
+              <div className="flex flex-col items-center justify-center gap-4 mt-12 sm:flex-row lg:justify-start">
                 <Button
                   asChild
                   size="lg"
@@ -35,7 +35,7 @@ export default function HeroSection() {
                   asChild
                   size="lg"
                   variant="ghost"
-                  className="px-5 text-base rounded-full dark:hover:text-white dark:hover:bg-primary"
+                  className="px-5 w-46 h-12 text-base rounded-full dark:hover:text-white dark:hover:bg-primary"
                 >
                   <Link
                     href="#link"
