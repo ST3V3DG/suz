@@ -19,7 +19,7 @@ export default function HeroHeader() {
       <header className="shadow-lg">
         <nav
           data-state={menuState && "active"}
-          className="bg-background/50 fixed z-20 w-full border-b backdrop-blur-3xl z-1000"
+          className="bg-background/50 fixed w-full border-b backdrop-blur-3xl z-1000"
         >
           <div className="mx-auto max-w-6xl px-6 transition-all duration-300">
             <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4">

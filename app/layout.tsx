@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
+import { Poppins } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  variable: "--font-poppins",
+  weight: "400",
+});
 
 export const metadata: Metadata = {
   title: "MCK Travel Agency",
@@ -16,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="fr" suppressHydrationWarning>
       <body
-        className={`font-poppins antialiased`}
+        className={`${poppins.className} antialiased`}
       >
         <ThemeProvider
           attribute="class"
