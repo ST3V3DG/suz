@@ -3,28 +3,20 @@ import Link from 'next/link'
 
 const links = [
     {
-        title: 'Features',
-        href: '#',
+        title: 'Accueil',
+        href: '/home',
     },
     {
-        title: 'Solution',
-        href: '#',
+        title: 'Nos spécialités',
+        href: '/specialities',
     },
     {
-        title: 'Customers',
-        href: '#',
+        title: 'À propos',
+        href: '/about',
     },
     {
-        title: 'Pricing',
-        href: '#',
-    },
-    {
-        title: 'Help',
-        href: '#',
-    },
-    {
-        title: 'About',
-        href: '#',
+        title: 'Contact',
+        href: '/contact',
     },
 ]
 
@@ -77,7 +69,7 @@ export default function FooterSection() {
                         </svg>
                     </Link>
                 </div>
-                <span className="block text-sm text-center text-muted-foreground"> © {new Date().getFullYear()} Tailus UI, All rights reserved</span>
+                <span className="block text-sm text-center text-muted-foreground"> © {new Date().getFullYear()} MCK Travel Agency, All rights reserved</span>
             </div>
         </footer>
     )

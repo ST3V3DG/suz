@@ -14,7 +14,7 @@ export default function HeroSection() {
           <div className="flex flex-col items-center justify-between max-w-6xl gap-6 px-6 mx-auto md:flex-row">
             <div className="max-w-lg text-center lg:ml-0 lg:w-1/2 lg:text-left">
               <HeroH1 />
-              <p className="max-w-2xl mt-8 text-lg text-pretty">
+              <p className="max-w-2xl mt-8 text-lg text-pretty text-black dark:text-muted-foreground">
                 Nous vous aidons à retrouver l'équilibre entre votre vie grâce à
                 nos services innovants pour votre santé et votre bien-être.
               </p>

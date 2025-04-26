@@ -45,8 +45,8 @@ export default function TeamSection() {
         <div className="max-w-5xl px-6 mx-auto border-t">
           {/* <span className="text-caption -ml-6 -mt-3.5 block w-max bg-gray-50 px-6 dark:bg-slate-900 rounded">Notre équipe</span> */}
           <div className="gap-4 mt-12 sm:grid sm:grid-cols-2 md:mt-24">
-            <div className="sm:w-3/5">
-              <h2 className="text-3xl font-bold sm:text-4xl bg-linear-to-br from-primary from-0 to-[#1a5fb4] to-50 text-transparent bg-clip-text">
+            <div className="sm:w-4/5">
+              <h2 className="text-5xl font-bold bg-linear-to-br from-primary from-0 to-[#1a5fb4] to-50 text-transparent bg-clip-text">
                 Notre équipe d'experts
               </h2>
             </div>

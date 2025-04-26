@@ -3,7 +3,7 @@ export default function StatsSection() {
       <section className="py-12 md:py-20 bg-primary/30">
         <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
           <div className="relative z-10 mx-auto max-w-xl space-y-6 text-center">
-            <h2 className="text-4xl font-medium lg:text-5xl">
+            <h2 className="text-5xl font-medium">
               Nous vous disons un grand{" "}
               <span className="bg-linear-to-br from-primary from-0 to-[#1a5fb4] to-50 text-transparent bg-clip-text font-bold">
                 Merci

@@ -1,6 +1,6 @@
 'use client'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
-import { Brain, ChartBarIncreasingIcon, Heart, IdCard, PersonStanding } from 'lucide-react'
+import {  File, Home, IdCard, Languages } from 'lucide-react'
 import Image from 'next/image'
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
@@ -34,7 +34,7 @@ export default function Features() {
         <div className="bg-linear-to-b absolute inset-0 -z-10 sm:inset-6 sm:rounded-b-3xl dark:block dark:to-[color-mix(in_oklab,var(--color-zinc-900)_75%,var(--color-background))]"></div>
         <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16 lg:space-y-20 dark:[--color-border:color-mix(in_oklab,var(--color-white)_10%,transparent)]">
           <div className="relative z-10 max-w-2xl mx-auto space-y-6 text-center">
-            <h2 className="text-4xl font-semibold text-balance lg:text-6xl bg-linear-to-br from-primary from-0 to-[#1a5fb4] to-50 text-transparent bg-clip-text">
+            <h2 className="text-5xl font-semibold text-balance bg-linear-to-br from-primary from-0 to-[#1a5fb4] to-50 text-transparent bg-clip-text">
               Nos Services
             </h2>
             <p>Nous sommes avec vous jusqu'au bout.</p>
@@ -50,7 +50,7 @@ export default function Features() {
               <AccordionItem value="item-1">
                 <AccordionTrigger>
                   <div className="flex items-center gap-2 text-base">
-                    <Heart className="size-4" />
+                    <File className="size-4" />
                     Obtention des documents
                   </div>
                 </AccordionTrigger>
@@ -64,7 +64,7 @@ export default function Features() {
               <AccordionItem value="item-2">
                 <AccordionTrigger>
                   <div className="flex items-center gap-2 text-base">
-                    <Brain className="size-4" />
+                    <Languages className="size-4" />
                     Traduction
                   </div>
                 </AccordionTrigger>
@@ -93,7 +93,7 @@ export default function Features() {
               <AccordionItem value="item-4">
                 <AccordionTrigger>
                   <div className="flex items-center gap-2 text-base">
-                    <IdCard className="size-4" />
+                    <Home className="size-4" />
                     Logement
                   </div>
                 </AccordionTrigger>

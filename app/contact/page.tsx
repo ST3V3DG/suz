@@ -13,17 +13,17 @@ import Link from "next/link";
 export default function ContactPage() {
     return (<>
         <HeroHeader />
-            <div className="min-h-screen flex items-center justify-center py-16">
+            <div className="min-h-screen flex items-center justify-center py-20">
                 <div className="w-full max-w-screen-xl mx-auto px-6 xl:px-0">
                     <b className="text-muted-foreground">Contactez nous</b>
-                    <h2 className="mt-3 text-3xl md:text-4xl font-bold tracking-tight">
+                    <h2 className="mt-3 text-5xl font-bold tracking-tight bg-linear-to-br from-primary from-0 to-[#1a5fb4] to-50 text-transparent bg-clip-text">
                         Laissez nous un message et nous y repondrons en moins de 24h.
                     </h2>
-                    <p className="mt-3 text-base sm:text-lg">
+                    <p className="mt-3 text-base sm:text-lg text-muted-foreground">
                         Nous serions ravis de vous entendre. Veuillez remplir ce formulaire ou nous envoyer un e-mail.
                     </p>
                     <div className="mt-24 grid lg:grid-cols-2 gap-16 md:gap-10">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-12">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-12 *:hover:shadow-2xl">
                             <div>
                                 <div className="h-12 w-12 flex items-center justify-center bg-primary/10 text-primary rounded-full">
                                     <MailIcon />
@@ -85,7 +85,7 @@ export default function ContactPage() {
                         </div>
 
                         {/* Form */}
-                        <Card className="bg-accent shadow-none relative">
+                        <Card className="bg-accent shadow-none relative transform hover:rotate-2 hover:scale-105 duration-500">
                             <BorderTrail
                                 style={{
                                 boxShadow:

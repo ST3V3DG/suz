@@ -48,7 +48,7 @@ export default function FAQS() {
           <div className="flex flex-col gap-10 md:flex-row md:gap-16">
             <div className="md:w-1/3">
               <div className="sticky top-20">
-                <h2 className="mt-4 text-3xl font-bold capitalize">
+                <h2 className="mt-4 text-5xl font-bold capitalize bg-linear-to-br from-primary from-0 to-[#1a5fb4] to-50 text-transparent bg-clip-text">
                   Questions Fréquentes
                 </h2>
                 <p className="text-muted-foreground mt-4">
