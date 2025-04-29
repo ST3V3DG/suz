@@ -10,9 +10,12 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "MCK Travel Agency",
+  title: "MCK Medical Care",
   description:
     "Medicale Center : Votre partenaire santé. Découvrez nos spécialités, notre équipe médicale et nos ressources pour les patients. Nous offrons des soins de santé de qualité, adaptés à vos besoins. Votre santé, notre priorité.",
+  openGraph: {
+    images: "./opengraph-image.png",
+  },
 };
 
 export default function RootLayout({
@@ -21,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${poppins.className} antialiased`}
       >

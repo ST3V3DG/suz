@@ -5,42 +5,102 @@ export default function SpecialitiesGrid() {
     const description = "Nous vous mettons entre les mains d'experts en tout genre.";
     
     const specialities = [
-        {
-            title: "Cardiologie",
-            description: "Centre d'excellence en cardiologie offrant des soins complets pour le diagnostic et le traitement des maladies cardiaques, utilisant des technologies de pointe pour les interventions cardiaques.",
-            imageSrc: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=800&h=400&fit=crop",
-            imageAlt: "Équipement de cardiologie moderne"
-        },
-        {
-            title: "Neurosciences",
-            description: "Département de neurosciences intégrant expertise clinique et recherche de pointe pour le traitement des troubles neurologiques et neurodégénératifs.",
-            imageSrc: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop",
-            imageAlt: "Imagerie cérébrale et équipement neurologique"
-        },
-        {
-            title: "Sciences rénales",
-            description: "Centre spécialisé dans le traitement des maladies rénales et la transplantation, offrant des soins personnalisés et un suivi complet des patients.",
-            imageSrc: "https://images.unsplash.com/photo-1527613426441-4da17471b66d?w=400&h=400&fit=crop",
-            imageAlt: "Unité de dialyse et transplantation rénale"
-        },
-        {
-            title: "Gastro-entérologie",
-            description: "Excellence en gastro-entérologie et transplantation hépatique, combinant expertise chirurgicale et soins spécialisés pour les maladies digestives.",
-            imageSrc: "https://images.unsplash.com/photo-1571772996211-2f02c9727629?w=800&h=400&fit=crop",
-            imageAlt: "Équipement d'endoscopie moderne"
-        },
-        {
-            title: "Orthopédie",
-            description: "Centre de référence en chirurgie orthopédique et remplacement articulaire, utilisant des techniques mini-invasives et des prothèses de dernière génération. Notre équipe pluridisciplinaire d\'experts se consacre à la restauration de votre mobilité et à l\'amélioration de votre qualité de vie. Nous proposons des solutions personnalisées pour chaque patient, combinant innovations technologiques et protocoles de rééducation accélérée. Nos chirurgiens spécialisés maîtrisent les approches chirurgicales les moins invasives, permettant une récupération plus rapide et des séjours hospitaliers réduits. Grâce à l\'utilisation d\'implants biocompatibles avancés et de systèmes de navigation assistés par ordinateur, nous assurons un positionnement optimal des prothèses et une longévité maximale des implants. Notre centre propose également un suivi personnalisé complet, du diagnostic initial jusqu'à la rééducation post-opératoire, pour garantir les meilleurs résultats fonctionnels possibles.",
-            imageSrc: "https://images.unsplash.com/photo-1599045118108-bf9954418b76?w=800&h=800&fit=crop",
-            imageAlt: "Salle d'opération orthopédique"
-        },
-        {
-            title: "Soins pulmonaires",
-            description: "Unité complète de soins pulmonaires, critiques et médecine du sommeil, offrant une prise en charge globale des troubles respiratoires.",
-            imageSrc: "https://images.unsplash.com/photo-1616012480717-fd9867059ca0?w=800&h=400&fit=crop",
-            imageAlt: "Laboratoire du sommeil et équipement respiratoire"
-        }
+      {
+        title: "Cardiologie",
+        description:
+          "Centre d'excellence en cardiologie offrant des soins complets pour le diagnostic et le traitement des maladies cardiaques. Technologies de pointe pour les interventions cardiaques complexes.",
+        imageSrc:
+          "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=800&h=400&fit=crop",
+        imageAlt: "Équipement de cardiologie moderne",
+      },
+      {
+        title: "Urologie",
+        description:
+          "Service spécialisé dans le traitement des pathologies urologiques et la transplantation rénale, utilisant des techniques robotiques et mini-invasives de dernière génération.",
+        imageSrc:
+          "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?w=400&h=400&fit=crop",
+        imageAlt: "Bloc opératoire urologique",
+      },
+      {
+        title: "Oncologie",
+        description:
+          "Département d'oncologie et chirurgie oncologique proposant des traitements personnalisés innovants. Expertise en immunothérapie et thérapies ciblées.",
+        imageSrc:
+          "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=400&fit=crop",
+        imageAlt: "Centre de traitement oncologique",
+      },
+      {
+        title: "Chirurgie G.I.",
+        description:
+          "Service spécialisé dans la chirurgie gastro-intestinale, offrant des solutions innovantes pour les pathologies digestives complexes.",
+        imageSrc:
+          "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=800&h=400&fit=crop",
+        imageAlt: "Équipement chirurgical G.I.",
+      },
+      {
+        title: "Soins intensifs",
+        description:
+          "Unité de soins intensifs ultramoderne assurant une surveillance continue et des soins critiques avec les dernières technologies médicales.",
+        imageSrc:
+          "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=800&h=283&fit=crop",
+        imageAlt: "Unité de soins intensifs",
+      },
+      {
+        title: "Chirurgie vasculaire",
+        description:
+          "Centre d'excellence en chirurgie vasculaire utilisant des techniques mini-invasives pour le traitement des pathologies vasculaires.",
+        imageSrc:
+          "https://images.unsplash.com/photo-1571772996211-2f02c9727629?w=800&h=400&fit=crop",
+        imageAlt: "Salle d'intervention vasculaire",
+      },
+      {
+        title: "Endocrinologie",
+        description:
+          "Service spécialisé dans le traitement du diabète et des troubles endocriniens, offrant une prise en charge personnalisée.",
+        imageSrc:
+          "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&h=600&fit=crop",
+        imageAlt: "Consultation endocrinologie",
+      },
+      {
+        title: "Chirurgie bariatrique",
+        description:
+          "Centre spécialisé dans le traitement chirurgical de l'obésité, proposant une approche multidisciplinaire complète.",
+        imageSrc:
+          "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=800&h=200&fit=crop",
+        imageAlt: "Bloc opératoire bariatrique",
+      },
+      {
+        title: "Ophtalmologie",
+        description:
+          "Service d'ophtalmologie équipé des dernières technologies pour le diagnostic et le traitement des pathologies oculaires.",
+        imageSrc:
+          "https://images.unsplash.com/photo-1724215618851-43f184cf0a66?q=80&w=400&h=300&fit=crop",
+        imageAlt: "Cabinet d'ophtalmologie",
+      },
+      {
+        title: "Chirurgie générale",
+        description:
+          "Excellence en chirurgie générale avec des équipes expérimentées utilisant les techniques les plus avancées pour tous types d'interventions.",
+        imageSrc:
+          "https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=800&h=400&fit=crop",
+        imageAlt: "Salle d'opération moderne",
+      },
+      {
+        title: "Pédiatrie",
+        description:
+          "Service pédiatrique complet offrant des soins spécialisés pour les enfants dans un environnement adapté et rassurant.",
+        imageSrc:
+          "https://images.unsplash.com/photo-1659177443478-888263868238?w=400&h=200&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fHBlZGlhdHJpZXxlbnwwfHwwfHx8MA%3D%3D",
+        imageAlt: "Service de pédiatrie",
+      },
+      {
+        title: "ORL",
+        description:
+          "Service ORL spécialisé dans le diagnostic et le traitement des pathologies de l'oreille, du nez et de la gorge avec des équipements de pointe.",
+        imageSrc:
+          "https://images.unsplash.com/photo-1589279003513-467d320f47eb?w=400&h=200&fit=crop",
+        imageAlt: "Cabinet ORL",
+      },
     ];
 
     return (
@@ -54,7 +114,7 @@ export default function SpecialitiesGrid() {
                         {description}
                     </p>
                 </div>
-                <div className="grid gap-4 md:grid-cols-4 grid-rows-3">
+                <div className="grid gap-4 md:grid-cols-12">
                     {specialities.map((specialty, index) => (
                         <SpecialityCard
                             key={index}
@@ -72,13 +132,19 @@ export default function SpecialitiesGrid() {
 }
 
 function getGridClass(index: number): string {
-    const gridClasses = [
-        "lg:col-span-2 max-h-96",
-        "[&>div]:h-full max-h-96",
-        "[&>div]:h-full max-h-96",
-        "lg:col-span-2",
-        "lg:col-span-2 lg:row-span-2 [&>div]:h-full",
-        "lg:col-span-2 max-h-96"
-    ];
-    return gridClasses[index] || "";
+  const gridClasses = [
+    "lg:col-span-6 max-h-96", // Cardiologie
+    "[&>div]:h-full lg:col-span-3 max-h-96", // Urologie
+    "[&>div]:h-full lg:col-span-3 max-h-96", // Oncologie
+    "lg:col-span-5 max-h-96", // Chirurgie générale
+    "lg:col-span-7 max-h-96", // Chirurgie G.I.
+    "lg:col-span-3 [&>div]:h-full max-h-96", // Chirurgie vasculaire
+    "lg:col-span-3 [&>div]:h-full max-h-96", // Endocrinologie
+    "lg:col-span-3 [&>div]:h-full", // Chirurgie bariatrique
+    "lg:col-span-3 max-h-96", // Ophtalmologie
+    "lg:col-span-4 max-h-96", // Soins intensifs
+    "lg:col-span-4 max-h-96", // Pédiatrie
+    "lg:col-span-4 max-h-96", // ORL
+  ];
+  return gridClasses[index] || "";
 }

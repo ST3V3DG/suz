@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image';
 
 const members = [
     {
@@ -47,7 +48,7 @@ export default function TeamSection() {
           <div className="gap-4 mt-12 sm:grid sm:grid-cols-2 md:mt-24">
             <div className="sm:w-4/5">
               <h2 className="text-5xl font-bold bg-linear-to-br from-primary from-0 to-[#1a5fb4] to-50 text-transparent bg-clip-text">
-                Notre équipe d'experts
+                Notre équipe d&apos;experts
               </h2>
             </div>
             <div className="mt-6 sm:mt-0">
@@ -61,12 +62,12 @@ export default function TeamSection() {
             <div className="grid gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
               {members.map((member, index) => (
                 <div key={index} className="overflow-hidden group">
-                  <img
+                  <Image
                     className="h-96 w-full rounded-md object-cover object-top grayscale transition-all duration-500 hover:grayscale-0 group-hover:h-[22.5rem] group-hover:rounded-xl"
                     src={member.avatar}
                     alt="team member"
-                    width="826"
-                    height="1239"
+                    width={826}
+                    height={1239}
                   />
                   <div className="px-2 pt-2 sm:pb-0 sm:pt-4">
                     <div className="flex justify-between">

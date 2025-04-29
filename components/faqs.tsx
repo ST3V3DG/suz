@@ -52,9 +52,10 @@ export default function FAQS() {
                   Questions Fréquentes
                 </h2>
                 <p className="text-muted-foreground mt-4">
-                  Vous avez d'autres questions ?{" "}
+                  Vous avez d&apos;autres questions ?{" "}
                   <Link
-                    href="#"
+                    href="https://wa.me/+237677791701"
+                    target="_blank"
                     className="text-primary font-medium hover:underline"
                   >
                     Contactez-nous

@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import LogoCloud from "./logo-cloud";
+// import LogoCloud from "./logo-cloud";
 import { HeroH1 } from "./hero-h1";
 import { ArrowRight } from "lucide-react";
 
@@ -15,8 +15,9 @@ export default function HeroSection() {
             <div className="max-w-lg text-center lg:ml-0 lg:w-1/2 lg:text-left">
               <HeroH1 />
               <p className="max-w-2xl mt-8 text-lg text-pretty text-black dark:text-muted-foreground">
-                Nous vous aidons à retrouver l'équilibre entre votre vie grâce à
-                nos services innovants pour votre santé et votre bien-être.
+                Nous vous aidons à retrouver l&apos;équilibre entre votre vie
+                grâce à nos services innovants pour votre santé et votre
+                bien-être.
               </p>
 
               <div className="flex flex-col items-center justify-center gap-4 mt-12 sm:flex-row lg:justify-start">
@@ -25,7 +26,7 @@ export default function HeroSection() {
                   size="lg"
                   className="relative w-46 h-12 -traslsate-y-2 before:absolute before:content-[''] before:-bottom-0 before:left-0 before:h-full before:w-full before:ring-2 before:ring-primary before:bg-transparent before:rounded-full hover:before:transform hover:before:translate-y-2 before:transition px-5 text-base border-2 rounded-full dark:text-white hover:-translate-y-2 border-primary"
                 >
-                  <Link href="#link">
+                  <Link href="https://wa.me/+237677791701" target="_blank">
                     <span className="text-nowrap">En savoir plus</span>
                     <ArrowRight />
                   </Link>
@@ -38,7 +39,8 @@ export default function HeroSection() {
                   className="px-5 w-46 h-12 text-base rounded-full dark:hover:text-white dark:hover:bg-primary"
                 >
                   <Link
-                    href="#link"
+                    href="https://wa.me/+237677791701"
+                    target="_blank"
                     className="border-2 rounded-full border-primary text-primary hover:text-white hover:bg-primary"
                   >
                     <span className="text-nowrap">Nous contacter</span>
@@ -57,7 +59,7 @@ export default function HeroSection() {
         </div>
         {/* <Separator className="max-w-[800px]" /> */}
       </section>
-      <LogoCloud />
+      {/* <LogoCloud /> */}
     </>
   );
 }

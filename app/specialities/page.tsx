@@ -1,11 +1,17 @@
-import FooterSection from "@/components/footer";
-import HeroHeader from "@/components/hero8-header";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
 import SpecialitiesGrid from "@/components/specialities-grid";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Nos spécialités | MCK Travel Agency",
+  description:
+    "Centre médical international proposant des soins spécialisés : chirurgie bariatrique, urologie, oncologie, transplantation rénale, chirurgie générale et esthétique. Notre équipe d'experts offre des traitements de pointe en cardiologie, endocrinologie et orthopédie à des tarifs accessibles.",
+};
 export default function SpecialitiesPage() {
   return (
     <>
-      <HeroHeader />
+      <Header />
       <main className="overflow-x-hidden">
         {/* <div className="mx-auto max-w-5xl px-6 pt-20 pb-12">
           <h1 className="text-4xl font-bold text-center">Nos Spécialités</h1>
@@ -14,12 +20,12 @@ export default function SpecialitiesPage() {
             mentale et physique.
           </p>
         </div> */}
-{/* 
+        {/* 
         <div className="mx-auto max-w-5xl px-6"> */}
-          <SpecialitiesGrid />
+        <SpecialitiesGrid />
         {/* </div> */}
       </main>
-      <FooterSection />
+      <Footer />
     </>
   );
 }

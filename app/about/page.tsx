@@ -1,15 +1,21 @@
 import { AboutTimeline } from "@/components/about-timeline";
-import FooterSection from "@/components/footer";
-import HeroHeader from "@/components/hero8-header";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Accueil | MCK Travel Agency",
+  description:
+    "Découvrez notre expertise en tourisme médical avec une équipe de spécialistes dévoués. Nous facilitons l'accès à des soins médicaux de qualité en combinant accompagnement personnalisé et standards internationaux.",
+};
 export default function AboutPage() {
   return (
     <>
-      <HeroHeader />
+      <Header />
       <main className="overflow-x-hidden">
         <AboutTimeline />
       </main>
-      <FooterSection />
+      <Footer />
     </>
   );
 }

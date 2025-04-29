@@ -4,7 +4,7 @@ import Link from 'next/link'
 const links = [
     {
         title: 'Accueil',
-        href: '/home',
+        href: '/',
     },
     {
         title: 'Nos spécialités',
@@ -20,7 +20,7 @@ const links = [
     },
 ]
 
-export default function FooterSection() {
+export default function Footer() {
     return (
         <footer className="py-16 border-t border-t-foreground/30">
             <div className="max-w-5xl px-6 mx-auto">
@@ -69,7 +69,7 @@ export default function FooterSection() {
                         </svg>
                     </Link>
                 </div>
-                <span className="block text-sm text-center text-muted-foreground"> © {new Date().getFullYear()} MCK Travel Agency, All rights reserved</span>
+                <span className="block text-sm text-center text-muted-foreground"> © {new Date().getFullYear()} MCK Medical Care, Tout droit réservés</span>
             </div>
         </footer>
     )

@@ -6,7 +6,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
 import { BorderBeam } from '@/components/magicui/border-beam'
 
-export default function Features() {
+export default function FeaturesSection() {
     type ImageKey = 'item-1' | 'item-2' | 'item-3' | 'item-4'
     const [activeItem, setActiveItem] = useState<ImageKey>('item-1')
 
@@ -37,7 +37,7 @@ export default function Features() {
             <h2 className="text-5xl font-semibold text-balance bg-linear-to-br from-primary from-0 to-[#1a5fb4] to-50 text-transparent bg-clip-text">
               Nos Services
             </h2>
-            <p>Nous sommes avec vous jusqu'au bout.</p>
+            <p>Nous sommes avec vous jusqu&apos;au bout.</p>
           </div>
 
           <div className="grid gap-12 sm:px-12 md:grid-cols-2 lg:gap-20 lg:px-0">

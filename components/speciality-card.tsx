@@ -1,12 +1,15 @@
 import { Tilt } from '@/components/motion-primitives/tilt';
+import Image from 'next/image';
 
 export default function SpecialtityCard({ className, title, description, imageSrc, imageAlt }: { className?: string, title: string, description: string, imageSrc: string, imageAlt: string }) {
   return (
     <Tilt className={className} rotationFactor={8} isRevese>
       <div className="relative grid w-full grid-rows-2 overflow-hidden border border-zinc-950/10 bg-white dark:border-zinc-50/10 dark:bg-zinc-900 rounded-lg shadow">
-        <img
+        <Image
           src={ imageSrc }
-          alt={ imageAlt }
+          alt={imageAlt}
+          width={400}
+          height={100}
           className="row-span-2 object-cover w-full h-full"
         />
         <h2 className="font-mono leading-snug text-black p-2 text-sm md:text-lg lg:text-xl dark:text-white">
