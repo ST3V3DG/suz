@@ -20,8 +20,8 @@ export default function ContactPage() {
   return (
     <>
       <Header />
-      <div className="min-h-screen flex items-center justify-center py-20">
-        <div className="w-full max-w-screen-xl mx-auto px-6 xl:px-0">
+      <main className="min-h-screen flex items-center justify-center py-20">
+        <div className="w-full max-w-screen-xl mx-auto px-6 xl:px-0 overflow-hidden">
           <b className="text-muted-foreground">Contactez nous</b>
           <h2 className="mt-3 text-5xl font-bold tracking-tight bg-linear-to-br from-primary from-0 to-[#1a5fb4] to-50 text-transparent bg-clip-text">
             Laissez nous un message et nous y repondrons en moins de 24h.
@@ -91,7 +91,7 @@ export default function ContactPage() {
                 </p>
                 <Link
                   className="font-medium text-primary"
-                  href="tel:akashmoradiya3444@gmail.com"
+                  href="tel:+237677791701"
                 >
                   +237 6 77-79-17-01
                 </Link>
@@ -99,15 +99,15 @@ export default function ContactPage() {
             </div>
 
             {/* Form */}
-            <Card className="bg-accent shadow-lg transform hover:rotate-2 hover:scale-105 duration-500">
-              <CardContent className="p-6 md:p-10 relative">
-                <BorderTrail
-                  style={{
-                    boxShadow:
-                      "0px 0px 60px 30px rgb(255 255 255 / 50%), 0 0 100px 60px rgb(0 0 0 / 50%), 0 0 140px 90px rgb(0 0 0 / 50%)",
-                  }}
-                  size={100}
-                />
+            <Card className="bg-accent shadow-lg relative transform lg:hover:rotate-2 lg:hover:scale-105 duration-500 mb-6 lg:mr-8">
+              <BorderTrail
+                style={{
+                  boxShadow:
+                    "0px 0px 60px 30px rgb(255 255 255 / 50%), 0 0 100px 60px rgb(0 0 0 / 50%), 0 0 140px 90px rgb(0 0 0 / 50%)",
+                }}
+                size={100}
+              />
+              <CardContent className="p-6 md:p-10">
                 <form>
                   <div className="grid md:grid-cols-2 gap-x-8 gap-y-5">
                     <div className="col-span-2 sm:col-span-1">
@@ -166,7 +166,7 @@ export default function ContactPage() {
             </Card>
           </div>
         </div>
-      </div>
+      </main>
       <Footer />
     </>
   );
