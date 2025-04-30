@@ -30,8 +30,8 @@ export default function ContactPage() {
             Nous serions ravis de vous entendre. Veuillez remplir ce formulaire
             ou nous envoyer un e-mail.
           </p>
-          <div className="mt-24 grid lg:grid-cols-2 gap-16 md:gap-10">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-12 *:hover:shadow-2xl *:py-4">
+          <div className="mt-24 grid lg:grid-cols-2 gap-16 md:gap-10 pb-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-12 *:hover:shadow-xl mb-4 *:py-4">
               <div className="px-4 rounded-lg">
                 <div className="size-12 flex items-center justify-center bg-primary/10 text-primary rounded-full">
                   <MailIcon />
