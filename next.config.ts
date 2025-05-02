@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   allowedDevOrigins: ['local-origin.dev', '*.local-origin.dev'],
   images: {
-    domains: ["res.cloudinary.com", "html.tailus.io", "assets.aceternity.com", "fr.freepik.com", "alt.tailus.io"], // Ajoutez le domaine ici
+    domains: ["res.cloudinary.com", "html.tailus.io", "assets.aceternity.com", "fr.freepik.com", "alt.tailus.io", "images.unsplash.com"], // Ajoutez le domaine ici
   },
 };
 
