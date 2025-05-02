@@ -148,8 +148,8 @@ export function AboutTimeline() {
     },
   ];
   return (
-    <div className="min-h-screen w-full relative">
-      <div className="absolute top-0 left-0 w-full">
+    <div className="min-h-screen w-full">
+      <div className="top-0 left-0 w-full">
         <Timeline data={data} />
       </div>
     </div>
