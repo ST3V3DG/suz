@@ -4,7 +4,7 @@ import Header from "@/components/header";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Accueil | MCK Travel Agency",
+  title: "À propos de nous",
   description:
     "Découvrez notre expertise en tourisme médical avec une équipe de spécialistes dévoués. Nous facilitons l'accès à des soins médicaux de qualité en combinant accompagnement personnalisé et standards internationaux.",
 };

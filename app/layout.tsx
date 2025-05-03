@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -10,7 +11,10 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "MCK Medical Care",
+  title: {
+    default: "MCK Medical Care",
+    template: "%s | MCK Medical Care",
+  },
   description:
     "Medicale Center : Votre partenaire santé. Découvrez nos spécialités, notre équipe médicale et nos ressources pour les patients. Nous offrons des soins de santé de qualité, adaptés à vos besoins. Votre santé, notre priorité.",
   openGraph: {
@@ -24,10 +28,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${poppins.className} antialiased`}
-      >
+    <html lang="fr" suppressHydrationWarning>
+      <body className={`${poppins.className} antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -35,6 +37,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <SpeedInsights />
         </ThemeProvider>
       </body>
     </html>

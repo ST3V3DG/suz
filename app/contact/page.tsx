@@ -12,7 +12,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Accueil | MCK Travel Agency",
+  title: "Contactez nous",
   description:
     "Besoin d'informations sur nos services de tourisme médical ? Contactez nos conseillers pour un devis personnalisé, une consultation à distance ou des renseignements sur nos forfaits de soins internationaux.",
 };
