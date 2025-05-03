@@ -49,8 +49,8 @@ export default function HeroSection() {
               </div>
             </div>
             <Image
-              width={400}
-              height={200}
+              width={500}
+              height={500}
               src={"/undraw_medicine.png"}
               alt={"Doctors"}
               className="w-full rounded drop-shadow-2xl md:w-1/2 lg:w-1/2"

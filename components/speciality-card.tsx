@@ -8,8 +8,9 @@ export default function SpecialtityCard({ className, title, description, imageSr
         <Image
           src={ imageSrc }
           alt={imageAlt}
-          width={400}
-          height={100}
+          width={500}
+          height={500}
+          priority
           className="row-span-2 object-cover w-full h-full"
         />
         <h2 className="font-mono leading-snug text-black p-2 text-sm md:text-lg lg:text-xl dark:text-white">
