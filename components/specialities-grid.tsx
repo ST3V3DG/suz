@@ -9,96 +9,84 @@ export default function SpecialitiesGrid() {
         title: "Cardiologie",
         description:
           "Centre d'excellence en cardiologie offrant des soins complets pour le diagnostic et le traitement des maladies cardiaques. Technologies de pointe pour les interventions cardiaques complexes.",
-        imageSrc:
-          "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=800&h=400&fit=crop",
+        imageSrc: "/cardiologie.jpeg",
         imageAlt: "Équipement de cardiologie moderne",
       },
       {
         title: "Urologie",
         description:
           "Service spécialisé dans le traitement des pathologies urologiques et la transplantation rénale, utilisant des techniques robotiques et mini-invasives de dernière génération.",
-        imageSrc:
-          "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?w=400&h=400&fit=crop",
+        imageSrc: "/urologie.jpeg",
         imageAlt: "Bloc opératoire urologique",
       },
       {
         title: "Oncologie",
         description:
           "Département d'oncologie et chirurgie oncologique proposant des traitements personnalisés innovants. Expertise en immunothérapie et thérapies ciblées.",
-        imageSrc:
-          "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=400&fit=crop",
+        imageSrc: "/oncologie.jpeg",
         imageAlt: "Centre de traitement oncologique",
       },
       {
         title: "Chirurgie G.I.",
         description:
           "Service spécialisé dans la chirurgie gastro-intestinale, offrant des solutions innovantes pour les pathologies digestives complexes.",
-        imageSrc:
-          "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=800&h=400&fit=crop",
+        imageSrc: "/chirurgie G.I.jpeg",
         imageAlt: "Équipement chirurgical G.I.",
       },
       {
         title: "Soins intensifs",
         description:
           "Unité de soins intensifs ultramoderne assurant une surveillance continue et des soins critiques avec les dernières technologies médicales.",
-        imageSrc:
-          "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=800&h=283&fit=crop",
+        imageSrc: "/soins intensifs.jpeg",
         imageAlt: "Unité de soins intensifs",
       },
       {
         title: "Chirurgie vasculaire",
         description:
           "Centre d'excellence en chirurgie vasculaire utilisant des techniques mini-invasives pour le traitement des pathologies vasculaires.",
-        imageSrc:
-          "https://images.unsplash.com/photo-1571772996211-2f02c9727629?w=800&h=400&fit=crop",
+        imageSrc: "/chirurgie vasculaire.jpeg",
         imageAlt: "Salle d'intervention vasculaire",
       },
       {
         title: "Endocrinologie",
         description:
           "Service spécialisé dans le traitement du diabète et des troubles endocriniens, offrant une prise en charge personnalisée.",
-        imageSrc:
-          "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&h=600&fit=crop",
+        imageSrc: "/endocrinologie.jpeg",
         imageAlt: "Consultation endocrinologie",
       },
       {
         title: "Chirurgie bariatrique",
         description:
           "Centre spécialisé dans le traitement chirurgical de l'obésité, proposant une approche multidisciplinaire complète.",
-        imageSrc:
-          "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=800&h=200&fit=crop",
+        imageSrc: "/chirurgie bariatrique.jpeg",
         imageAlt: "Bloc opératoire bariatrique",
       },
       {
         title: "Ophtalmologie",
         description:
           "Service d'ophtalmologie équipé des dernières technologies pour le diagnostic et le traitement des pathologies oculaires.",
-        imageSrc:
-          "https://images.unsplash.com/photo-1724215618851-43f184cf0a66?q=80&w=400&h=300&fit=crop",
+        imageSrc: "/ophtalmologie.jpeg",
         imageAlt: "Cabinet d'ophtalmologie",
       },
       {
         title: "Chirurgie générale",
         description:
           "Excellence en chirurgie générale avec des équipes expérimentées utilisant les techniques les plus avancées pour tous types d'interventions.",
-        imageSrc:
-          "https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=800&h=400&fit=crop",
+        imageSrc: "/chirurgie générale.jpeg",
         imageAlt: "Salle d'opération moderne",
       },
       {
         title: "Pédiatrie",
         description:
           "Service pédiatrique complet offrant des soins spécialisés pour les enfants dans un environnement adapté et rassurant.",
-        imageSrc:
-          "https://images.unsplash.com/photo-1659177443478-888263868238?w=400&h=200&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fHBlZGlhdHJpZXxlbnwwfHwwfHx8MA%3D%3D",
+        imageSrc: "/pédiatrie.jpeg",
         imageAlt: "Service de pédiatrie",
       },
       {
         title: "ORL",
         description:
           "Service ORL spécialisé dans le diagnostic et le traitement des pathologies de l'oreille, du nez et de la gorge avec des équipements de pointe.",
-        imageSrc:
-          "https://images.unsplash.com/photo-1589279003513-467d320f47eb?w=400&h=200&fit=crop",
+        imageSrc: "/orl.jpeg",
         imageAlt: "Cabinet ORL",
       },
     ];

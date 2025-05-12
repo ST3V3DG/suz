@@ -54,6 +54,7 @@ export default function HeroSection() {
               src={"/undraw_medicine.png"}
               alt={"Doctors"}
               className="w-full rounded drop-shadow-2xl md:w-1/2 lg:w-1/2"
+              priority={true}
             />
           </div>
         </div>

@@ -8,7 +8,7 @@ import TeamSection from "@/components/team";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Accueil | MCK Travel Agency",
+  title: "Accueil",
   description:
     "Centre médical d'excellence proposant des traitements médicaux abordables et des interventions chirurgicales de qualité pour les patients internationaux. Notre agence de tourisme médical vous accompagne dans votre parcours de soins avec des forfaits personnalisés, combinant expertise médicale de pointe et services haut de gamme.",
 };
