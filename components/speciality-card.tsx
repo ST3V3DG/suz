@@ -23,12 +23,12 @@ export default function SpecialtityCard({
   const [isMobile, setIsMobile] = useState(false);
   const cardRef = useRef<HTMLDivElement>(null);
   const inView = useInView(cardRef, {
-    amount: 1, // Trigger when 100% of the card is visible
+    amount: 0.8, // Trigger when 100% of the card is visible
   });
 
   useEffect(() => {
     const checkIsMobile = () => {
-      setIsMobile(window.innerWidth < 768); // Tailwind's 'md' breakpoint
+      setIsMobile(window.innerWidth < 1024); // Tailwind's 'lg' breakpoint
     };
 
     checkIsMobile(); // Initial check
@@ -53,20 +53,6 @@ export default function SpecialtityCard({
         ? "opacity-100"
         : "opacity-0"
       : "opacity-0 hover:opacity-100",
-  ].join(" ");
-
-  const secondOverlayClasses = [
-    "absolute",
-    "inset-0",
-    "z-10",
-    "p-2",
-    "transition-opacity",
-    "duration-300",
-    isMobile
-      ? inView
-        ? "block opacity-100"
-        : "hidden opacity-0"
-      : "hidden opacity-0 hover:block hover:opacity-100",
   ].join(" ");
 
   return (

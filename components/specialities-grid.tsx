@@ -114,7 +114,7 @@ export default function SpecialitiesGrid() {
                         {description}
                     </p>
                 </div>
-                <div className="grid gap-4 md:grid-cols-12">
+                <div className="lg:grid flex justify-between place-items-stretch flex-col gap-4 md:grid-cols-2 lg:grid-cols-12">
                     {specialities.map((specialty, index) => (
                         <SpecialityCard
                             key={index}
@@ -133,18 +133,18 @@ export default function SpecialitiesGrid() {
 
 function getGridClass(index: number): string {
   const gridClasses = [
-    "lg:col-span-6 max-h-96", // Cardiologie
-    "[&>div]:h-full lg:col-span-3 max-h-96", // Urologie
-    "[&>div]:h-full lg:col-span-3 max-h-96", // Oncologie
-    "lg:col-span-5 max-h-96", // Chirurgie générale
-    "lg:col-span-7 max-h-96", // Chirurgie G.I.
-    "lg:col-span-3 [&>div]:h-full max-h-96", // Chirurgie vasculaire
-    "lg:col-span-3 [&>div]:h-full max-h-96", // Endocrinologie
-    "lg:col-span-3 [&>div]:h-full", // Chirurgie bariatrique
-    "lg:col-span-3 max-h-96", // Ophtalmologie
-    "lg:col-span-4 max-h-96", // Soins intensifs
-    "lg:col-span-4 max-h-96", // Pédiatrie
-    "lg:col-span-4 max-h-96", // ORL
+    "lg:col-span-6 col-span1", // Cardiologie
+    "lg:col-span-3", // Urologie
+    "lg:col-span-3", // Oncologie
+    "lg:col-span-5", // Chirurgie générale
+    "lg:col-span-7", // Chirurgie G.I.
+    "lg:col-span-3 lg:[&>div]:h-full", // Chirurgie vasculaire
+    "lg:col-span-3", // Endocrinologie
+    "lg:col-span-3 lg:[&>div]:h-full", // Chirurgie bariatrique
+    "lg:col-span-3", // Ophtalmologie
+    "lg:col-span-4", // Soins intensifs
+    "lg:col-span-4", // Pédiatrie
+    "lg:col-span-4", // ORL
   ];
   return gridClasses[index] || "";
 }
