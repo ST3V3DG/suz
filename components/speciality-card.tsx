@@ -80,9 +80,6 @@ export default function SpecialtityCard({
             <p className="text-zinc-400">{description}</p>
           </div>
         </div>
-        {/* <div className={secondOverlayClasses}>
-          <div className="w-full rounded-md bg-zinc-950/80 p-2 backdrop-blur-sm"></div>
-        </div> */}
       </div>
     </Tilt>
   );
