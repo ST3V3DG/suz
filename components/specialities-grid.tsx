@@ -11,6 +11,7 @@ export default function SpecialitiesGrid() {
           "Centre d'excellence en cardiologie offrant des soins complets pour le diagnostic et le traitement des maladies cardiaques. Technologies de pointe pour les interventions cardiaques complexes.",
         imageSrc: "/cardiologie.jpeg",
         imageAlt: "Équipement de cardiologie moderne",
+        priority: true,
       },
       {
         title: "Urologie",
@@ -18,6 +19,7 @@ export default function SpecialitiesGrid() {
           "Service spécialisé dans le traitement des pathologies urologiques et la transplantation rénale, utilisant des techniques robotiques et mini-invasives de dernière génération.",
         imageSrc: "/urologie.jpeg",
         imageAlt: "Bloc opératoire urologique",
+        priority: false,
       },
       {
         title: "Oncologie",
@@ -25,6 +27,7 @@ export default function SpecialitiesGrid() {
           "Département d'oncologie et chirurgie oncologique proposant des traitements personnalisés innovants. Expertise en immunothérapie et thérapies ciblées.",
         imageSrc: "/oncologie.jpeg",
         imageAlt: "Centre de traitement oncologique",
+        priority: false,
       },
       {
         title: "Chirurgie G.I.",
@@ -32,6 +35,7 @@ export default function SpecialitiesGrid() {
           "Service spécialisé dans la chirurgie gastro-intestinale, offrant des solutions innovantes pour les pathologies digestives complexes.",
         imageSrc: "/chirurgie G.I.jpeg",
         imageAlt: "Équipement chirurgical G.I.",
+        priority: false,
       },
       {
         title: "Soins intensifs",
@@ -39,6 +43,7 @@ export default function SpecialitiesGrid() {
           "Unité de soins intensifs ultramoderne assurant une surveillance continue et des soins critiques avec les dernières technologies médicales.",
         imageSrc: "/soins intensifs.jpeg",
         imageAlt: "Unité de soins intensifs",
+        priority: false,
       },
       {
         title: "Chirurgie vasculaire",
@@ -46,6 +51,7 @@ export default function SpecialitiesGrid() {
           "Centre d'excellence en chirurgie vasculaire utilisant des techniques mini-invasives pour le traitement des pathologies vasculaires.",
         imageSrc: "/chirurgie vasculaire.jpeg",
         imageAlt: "Salle d'intervention vasculaire",
+        priority: false,
       },
       {
         title: "Endocrinologie",
@@ -53,6 +59,7 @@ export default function SpecialitiesGrid() {
           "Service spécialisé dans le traitement du diabète et des troubles endocriniens, offrant une prise en charge personnalisée.",
         imageSrc: "/endocrinologie.jpeg",
         imageAlt: "Consultation endocrinologie",
+        priority: false,
       },
       {
         title: "Chirurgie bariatrique",
@@ -60,6 +67,7 @@ export default function SpecialitiesGrid() {
           "Centre spécialisé dans le traitement chirurgical de l'obésité, proposant une approche multidisciplinaire complète.",
         imageSrc: "/chirurgie bariatrique.jpeg",
         imageAlt: "Bloc opératoire bariatrique",
+        priority: false,
       },
       {
         title: "Ophtalmologie",
@@ -67,6 +75,7 @@ export default function SpecialitiesGrid() {
           "Service d'ophtalmologie équipé des dernières technologies pour le diagnostic et le traitement des pathologies oculaires.",
         imageSrc: "/ophtalmologie.jpeg",
         imageAlt: "Cabinet d'ophtalmologie",
+        priority: false,
       },
       {
         title: "Chirurgie générale",
@@ -74,6 +83,7 @@ export default function SpecialitiesGrid() {
           "Excellence en chirurgie générale avec des équipes expérimentées utilisant les techniques les plus avancées pour tous types d'interventions.",
         imageSrc: "/chirurgie générale.jpeg",
         imageAlt: "Salle d'opération moderne",
+        priority: false,
       },
       {
         title: "Pédiatrie",
@@ -81,6 +91,7 @@ export default function SpecialitiesGrid() {
           "Service pédiatrique complet offrant des soins spécialisés pour les enfants dans un environnement adapté et rassurant.",
         imageSrc: "/pédiatrie.jpeg",
         imageAlt: "Service de pédiatrie",
+        priority: false,
       },
       {
         title: "ORL",
@@ -88,6 +99,7 @@ export default function SpecialitiesGrid() {
           "Service ORL spécialisé dans le diagnostic et le traitement des pathologies de l'oreille, du nez et de la gorge avec des équipements de pointe.",
         imageSrc: "/orl.jpeg",
         imageAlt: "Cabinet ORL",
+        priority: false,
       },
     ];
 
